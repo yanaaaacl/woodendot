@@ -234,14 +234,250 @@ position: relative;
 /*SECTION-PHOTO*/
 
 .photo{
-display: flex;
-justify-content: center;
+background-image: url(../img/img-1.jpg), url(../img/img-2.jpg), url(../img/img-3.jpg), url(../img/img-4.jpg);
+background-repeat: no-repeat;
+
+background-position: left, 360px, 720px, 1070px;
+padding-bottom: 320px;
 
 }
 
 .photo__img{
     
 
+}
+
+/*SECTION-FURNITURE*/
+
+.furniture{
+    padding-top: 114px;
+    padding-bottom: 5px;
+
+}
+
+.furniture-catallog{
+
+}
+
+.furniture-catallog-option{
+display: flex;
+padding-bottom: 15px;
+}
+
+.furniture-catallog-option-text{
+
+
+}
+
+.text-right{
+    text-align: right;
+    padding-right: 60px;
+}
+
+.text-left{
+    padding-left: 60px;
+}
+
+.furniture__title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 56px;
+    padding-top: 48px;
+    padding-bottom: 4px;
+
+
+}
+
+.furniture-system{
+    font-style: italic;
+    font-size: 18px;
+    line-height: 37.14px;
+    padding-bottom: 22px;
+
+}
+
+.furniture-price{
+    font-size: 15px;
+    line-height: 27.86px;
+    padding-bottom: 12px;
+
+}
+
+.furniture-description{
+    
+    font-size: 18px;
+    line-height: 30.6px;
+    max-width: 437px;
+    padding-bottom: 66px;
+    color: #525252;
+
+
+}
+
+.furniture-link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-decoration: underline;
+
+}
+
+.furniture-catallog-option-img{
+
+}
+
+.furniture-img{
+
+}
+
+.furniture-sizeAndColor{
+    font-size: 16px;
+    line-height: 27.2px;
+    color: #54595f;
+    padding-bottom: 48px;
+
+}
+
+.furniture-favorite{
+    font-style: italic;
+    font-size: 14px;
+    line-height: 29.71px;
+    color: #bc1414;
+    padding-top: 47px;
+
+}
+
+.title-top{
+    padding-top: 20px;
+}
+
+.other-link{
+padding-top: 30px;
+}
+
+.other-link-link{
+
+}
+
+.other-link-img{
+
+}
+
+/*SECTION-INSIDE*/
+
+.inside{
+padding-bottom: 36px;
+}
+
+.inside__title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    color: #3a3a3a;
+    padding-top: 21px;
+    padding-bottom: 21px;
+
+}
+
+.inside__text{
+    font-size: 18px;
+    line-height: 33.43px;
+    text-align: center;
+
+}
+
+/*SLIDER-SWIPER*/
+
+.slider-1{
+    padding-bottom: 30px;
+}
+
+.swiper{
+    padding-bottom: 20px;
+}
+
+.swiper-wrapper{
+max-width: 1120px;
+
+}
+
+.swiper-slide{
+    min-height: 550px;
+   margin-bottom: 35px;
+    
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.swiper-pagination-bullet{
+    width: 9px;
+    height: 9px;
+    background-color: #000000;
+    border-radius: 0;
+    
+    
+
+}
+
+.swiper-pagination-bullet-active{
+    width: 9px;
+    height: 9px;
+    background-color: #000000;
+    border-radius: 0;
+}
+
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 5px;
+    
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal{
+    
+}
+
+/*SLIDER-SWIPER-2*/
+
+.slider-2{
+text-align: center;
+}
+
+.swiper-2{
+
+}
+
+.mySwiper-2{
+
+}
+
+.citata{
+    font-style: italic;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 83px;
+    padding-bottom: 37px;
+    
+
+
+}
+
+.person-citata{
+padding-bottom: 50px;
+}
+
+.swiper-wrapper-2{
+max-width: 1120px;
+margin: 0 auto;
+}
+
+.swiper-slide-1{
+
+}
+
+.swiper-pagination-1{
+    
 }
 
 /*FOOTER*/
